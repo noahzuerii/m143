@@ -29,4 +29,5 @@ Die Restore-Szenarien beschreiben, wie nach einem Ausfall oder Fehler Daten wied
 
 ## 🔁 Restore-Diagramm
 
-![Restore Übersicht](docs/img/restore.png)
+![Restore Übersicht](./img/restore.png)
+
