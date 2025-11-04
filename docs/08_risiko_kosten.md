@@ -14,7 +14,7 @@
   - Maßnahme: **Testprotokolle**, regelmäßige Restore-Tests, Monitoring mit Logs und Mails  
 
 - **Speicherkorruption / Datenverlust**  
-  - Eintrittswahrscheinlichkeit: gering  
+  - Eintrittswahrscheinlichkeit: gering(man könnte das Sicherheitsrisiko noch mehr verringern wenn man zusätzlich das Backup auch noch auf ein pysischen Backupserver schreibt) 
   - Auswirkung: hoch → Verlust sensibler Schülerdaten  
   - Maßnahme: **S3-Objektversionierung**, **Glacier Archivierung**  
 
@@ -83,4 +83,5 @@
 - **Budget:** Passt in das 50 $ Guthaben des AWS Learner Labs (Projektzeitraum < 2 Monate).  
 - **Sicherheit:** Risiko von Datenverlust wird stark reduziert (Redundanz, Verschlüsselung, Versionierung).  
 - **Wirtschaftlichkeit:** Sehr kostengünstig, da AWS-Dienste nur im kleinen Maßstab genutzt werden.  
+
 - **Rest-Risiko:** bleibt bei menschlichen Fehlern und Cyberangriffen, aber Maßnahmen reduzieren den Schaden.
