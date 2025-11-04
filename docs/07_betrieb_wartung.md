@@ -75,4 +75,5 @@ Nur so kann sichergestellt werden, dass im Notfall die Daten zuverlässig wieder
 ## 6. Fazit
 
 Durch regelmässige Wartung, Monitoring und klare Rollenverteilung ist sichergestellt, dass die Schule im Ernstfall innerhalb weniger Stunden wieder arbeitsfähig ist.  
-Die Dokumentation (GitLab) stellt sicher, dass das System auch von Vertretungen zuverlässig betrieben werden kann.
+Die Dokumentation (GitHub) stellt sicher, dass das System auch von Vertretungen zuverlässig betrieben werden kann.
+
