@@ -44,7 +44,7 @@ Backups werden automatisiert in **S3** gespeichert und mit **Lifecycle-Richtlini
 5. **Mail-Benachrichtigung**  
    - SMTP-Versand über Gmail-App-Passwort  
    - Meldung von Erfolg/Fehlschlag an Administrator  
-<img width="1206" height="2373" alt="image" src="https://github.com/user-attachments/assets/bdc16c7d-b089-499f-98f8-9a17758d9d10" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/bdc16c7d-b089-499f-98f8-9a17758d9d10" />
 
 6. **IAM & Security Groups**  
    - Prinzip des **Least Privilege**  
