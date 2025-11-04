@@ -24,6 +24,7 @@ Backups werden automatisiert in **S3** gespeichert und mit **Lifecycle-Richtlini
    - Datenbank: `school`  
    - Enthält sensible Schülerdaten (Stammdaten, Noten, Absenzen)  
    - Backups: tägliche RDS-Snapshots + Dumps via EC2
+<img width="2308" height="1250" alt="image" src="https://github.com/user-attachments/assets/14de0c59-5ff7-4e29-a202-e721f19fe254" />
 
 3. **S3 Bucket**  
    - Name: `backup-raw-bachmann-pe24c`  
