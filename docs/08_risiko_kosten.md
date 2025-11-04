@@ -4,9 +4,14 @@
 
 ### 1. Technische Risiken
 - **Hardware- oder Infrastruktur-Ausfall (z. B. EC2 oder RDS Ausfall)**  
-  - Eintrittswahrscheinlichkeit: mittel  
+  - Eintrittswahrscheinlichkeit: gering  
+    - AWS SLA-Indikatoren:  
+      - EC2 (Regionalverfügbarkeit): 99,99 % ≈ ~4,4 Minuten Ausfall/Monat  
+      - RDS (Multi-AZ): 99,95 % ≈ ~21,9 Minuten Ausfall/Monat  
+      - S3 (Standard-Verfügbarkeit): 99,9 % ≈ ~43,8 Minuten Ausfall/Monat  
+    - Quellen: [AWS EC2 SLA](https://aws.amazon.com/compute/sla/), [AWS RDS SLA](https://aws.amazon.com/rds/sla/), [AWS S3 SLA](https://aws.amazon.com/s3/sla/)  
   - Auswirkung: hoch → Ausfall des Schulsystems, kein Zugriff auf Noten/Absenzen  
-  - Maßnahme: Nutzung von **S3**, **Snapshots**, **AMIs** zur schnellen Wiederherstellung  
+  - Maßnahme: Nutzung von **S3**, **Snapshots**, **AMIs** zur schnellen Wiederherstellung
 
 - **Fehlkonfiguration von Backups (z. B. falscher Cronjob)**  
   - Eintrittswahrscheinlichkeit: mittel  
@@ -85,3 +90,4 @@
 - **Wirtschaftlichkeit:** Sehr kostengünstig, da AWS-Dienste nur im kleinen Maßstab genutzt werden.  
 
 - **Rest-Risiko:** bleibt bei menschlichen Fehlern und Cyberangriffen, aber Maßnahmen reduzieren den Schaden.
+
