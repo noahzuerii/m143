@@ -12,7 +12,7 @@ Sie zeigt den gesamten Ablauf von Backups, Speicherung und Monitoring.
 - **Admin (SSH/Monitoring)**: Greift auf EC2 und Logs zu  
 
 ## 📊 Architektur-Diagramm
-![Architekturübersicht](docs/img/architektur.png)
+![Architektur](./img/architektur.png)
   
 
 ---
@@ -28,4 +28,5 @@ Die Restore-Szenarien beschreiben, wie nach einem Ausfall oder Fehler Daten wied
 5. **DB-Dump Restore**: Dump von S3 nach MySQL importieren  
 
 ## 🔁 Restore-Diagramm
+
 ![Restore Übersicht](docs/img/restore.png)
