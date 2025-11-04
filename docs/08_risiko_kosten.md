@@ -10,7 +10,7 @@
       - RDS (Multi-AZ): 99,95 % ≈ ~21,9 Minuten Ausfall/Monat  
       - S3 (Standard-Verfügbarkeit): 99,85 % ≈ ~43,8 Minuten Ausfall/Monat  
     - Quellen: [AWS EC2 SLA](https://aws.amazon.com/compute/sla/), [AWS RDS SLA](https://aws.amazon.com/rds/sla/), [AWS S3 SLA](https://aws.amazon.com/s3/sla/)
-    - Wie man auch in den Links sieht, dass wenn die verschiedenen Dienste unter einen gewissen Prozentsatz fallen an Verfügbarkeit das man dann einen gewissen Teil der bezahlten Gebüren zurück erhält
+    - Wie man auch in den Links sieht, dass wenn die verschiedenen Dienste unter einen gewissen Prozentsatz fallen an Verfügbarkeit das man dann einen gewissen Teil der bezahlten Gebüren zurück erhält.
   - Auswirkung: hoch → Ausfall des Schulsystems, kein Zugriff auf Noten/Absenzen  
   - Maßnahme: Nutzung von **S3**, **Snapshots**, **AMIs** zur schnellen Wiederherstellung
 
@@ -91,6 +91,7 @@
 - **Wirtschaftlichkeit:** Sehr kostengünstig, da AWS-Dienste nur im kleinen Maßstab genutzt werden.  
 
 - **Rest-Risiko:** bleibt bei menschlichen Fehlern und Cyberangriffen, aber Maßnahmen reduzieren den Schaden.
+
 
 
 
