@@ -34,14 +34,17 @@ Backups werden automatisiert in **S3** gespeichert und mit **Lifecycle-Richtlini
      - 30 Tage → Standard Storage  
      - 31–90 Tage → Glacier  
      - 90 Tage → automatische Löschung  
+<img width="2066" height="812" alt="image" src="https://github.com/user-attachments/assets/5f7d67ea-1d67-444b-908e-dabf2d1a2720" />
 
 4. **Cronjobs**  
    - Steuern den täglichen und wöchentlichen Ablauf der Skripte  
    - Logs werden in `/var/backups/logs` gespeichert  
+<img width="1113" height="250" alt="image" src="https://github.com/user-attachments/assets/38091a62-43fe-409d-b718-27a16bed3546" />
 
 5. **Mail-Benachrichtigung**  
    - SMTP-Versand über Gmail-App-Passwort  
    - Meldung von Erfolg/Fehlschlag an Administrator  
+<img width="1206" height="2373" alt="image" src="https://github.com/user-attachments/assets/bdc16c7d-b089-499f-98f8-9a17758d9d10" />
 
 6. **IAM & Security Groups**  
    - Prinzip des **Least Privilege**  
@@ -62,13 +65,8 @@ Backups werden automatisiert in **S3** gespeichert und mit **Lifecycle-Richtlini
   - Getrennte Rollen für Admins / Backups  
   - MFA für IAM-Accounts (falls verfügbar)
 
----
-
-## 📊 Architekturdiagramm
-
-*Diagram wird noch erstellt*  
 
 **Legende:**  
 - Blau = AWS Ressourcen (EC2, RDS, S3)  
 - Grün = Backup-Prozesse (Cronjobs, Skripte)  
-- Rot = Restore-Szenarien  
+- Rot = Restore-Szenarien
